@@ -1,13 +1,12 @@
 import React from "react";
 import { Button, Image } from "antd";
 import photo from "./../../img/photo_2020-10-25_16-13-42.jpg";
-import { DownloadOutlined } from "@ant-design/icons";
+import { DownloadOutlined,UserOutlined } from "@ant-design/icons";
 
 let AboutMe = () => {
   return (
     <div>
-      <h1>About ME</h1>
-      <div>Welcome, I AM VLADZIMIR KAPANKO</div>
+      <h1>About ME <UserOutlined /></h1>
       <div>
         <Image width={200} src={photo} />
       </div>
